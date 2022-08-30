@@ -45,20 +45,21 @@ console.log(x);
 // Comparison Operators
 console.log(ageEmilio > ageSarah);
 
-
-
-
-
-
 //Basic operator lec quiz
 console.log(population / 2);
 console.log(population++);
 console.log(population++);
-
 let description = country + " is in " + continent + " and its " + population + " million people speak " + language + '.';
 
 console.log(description);
 
+//Coding Challenge #1
+let marksHeight = 1.69;
+let marksWeight = 78;
+let johnsHeight = 1.95;
+let johnsWeight = 92;
 
+let marksBMI = marksWeight / marksHeight ** 2; //= marksWeight / (marksHeight * marksHeight);
+console.log(marksBMI);
 
 
