@@ -59,7 +59,11 @@ let marksWeight = 78;
 let johnsHeight = 1.95;
 let johnsWeight = 92;
 
-let marksBMI = marksWeight / marksHeight ** 2; //= marksWeight / (marksHeight * marksHeight);
+let marksBMI = marksWeight / marksHeight ** 2;
 console.log(marksBMI);
+let johnsBMI = johnsWeight / johnsHeight ** 2;
+console.log(johnsBMI);
+console.log(marksBMI > johnsWeight);
+
 
 
