@@ -31,6 +31,7 @@ console.log(ageEmilio, ageSarah);
 const firstName = 'Emilio';
 const lastName = 'Benavides';
 console.log(firstName + ' ' + lastName);
+console.log(ageEmilio * 2, ageEmilio / 10, 2 ** 3);
 
 // Assignment Operators
 let x = 10 +5; //15
@@ -38,14 +39,26 @@ x += 10; // x = x + 10 = 25
 x *= 4; // x = x * 4 = 100
 x++;// x = x +1
 x--;
+x--;
 console.log(x);
 
-
-console.log(ageEmilio * 2, ageEmilio / 10, 2 ** 3);
-
-
+// Comparison Operators
+console.log(ageEmilio > ageSarah);
 
 
-// console.log(population / 2);
+
+
+
+
+//Basic operator lec quiz
+console.log(population / 2);
+console.log(population++);
+console.log(population++);
+
+let description = country + " is in " + continent + " and its " + population + " million people speak " + language + '.';
+
+console.log(description);
+
+
 
 
