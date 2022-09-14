@@ -66,27 +66,12 @@
 // console.log(marksBMI > johnsBMI);
 
 //Temperate literals
-const firstName = 'Emilio';
-const job = 'Programmer';
-const birthYear = 1986;
-const year = 2037;
-const emilio = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
-console.log(emilio);
-
-console.log(`Hello
-my name
-is Emilio`);
-
-const age =15;
-
-if (age >= 18) {
-    console.log('Sara can start driving license 🚗');
-} else {
-  const yearsLeft = 18 - age;
-    console.log(`Sara is too young. Wait another ${yearsLeft} years :)`);
-}
-
-
+// const firstName = 'Emilio';
+// const job = 'Programmer';
+// const birthYear = 1986;
+// const year = 2037;
+// const emilio = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
+// console.log(emilio);
 
 
 

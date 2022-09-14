@@ -12,6 +12,27 @@ if (js === "Amazing") alert("javascript is fun!!!");
 // console.log(myCurrentJob);
 // console.log(firstName);
 
+console.log(`Hello
+my name
+is Emilio`);
+
+const age =15;
+
+if (age >= 18) {
+    console.log('Sara can start driving license 🚗');
+} else {
+    const yearsLeft = 18 - age;
+    console.log(`Sara is too young. Wait another ${yearsLeft} years :)`);
+}
+
+let century;
+const birthYear = 1998;
+if (birthYear <= 2000) {
+     century = 20;
+} else {
+    century = 21;// conditional reassignment
+}
+console.log(century);
 
 
 
