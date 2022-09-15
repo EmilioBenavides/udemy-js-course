@@ -54,16 +54,16 @@
 // console.log(description);
 
 //Coding Challenge #1
-// let marksHeight = 1.69;
-// let marksWeight = 78;
-// let johnsHeight = 1.95;
-// let johnsWeight = 92;
-//
-// let marksBMI = marksWeight / marksHeight ** 2;
-// console.log(marksBMI);
-// let johnsBMI = johnsWeight / johnsHeight ** 2;
-// console.log(johnsBMI);
-// console.log(marksBMI > johnsBMI);
+let marksHeight = 1.69;
+let marksWeight = 78;
+let johnsHeight = 1.95;
+let johnsWeight = 92;
+
+let marksBMI = marksWeight / marksHeight ** 2;
+console.log(marksBMI);
+let johnsBMI = johnsWeight / johnsHeight ** 2;
+console.log(johnsBMI);
+console.log(marksBMI > johnsBMI);
 
 //Temperate literals
 // const firstName = 'Emilio';
@@ -73,5 +73,12 @@
 // const emilio = `I'm ${firstName}, a ${year - birthYear} year old ${job}!`;
 // console.log(emilio);
 
+// Coding Challenge #2
+
+if (marksBMI > johnsBMI) {
+    console.log(`Marks ${marksBMI} is higher than ${johnsBMI}`)
+} else {
+    console.log(`Johns ${johnsBMI} is higher than ${marksBMI}`)
+};
 
 
