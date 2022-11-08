@@ -34,10 +34,27 @@
 // }
 // console.log(century);
 
-const inputYear = '1991';
-console.log(Number(inputYear));
-console.log(inputYear + 18);
-console.log(Number(inputYear) + 18);
 
+//type conversion
+// const inputYear = '1991';
+// console.log(Number(inputYear));
+// console.log(inputYear + 18);
+// console.log(Number(inputYear) + 18);
+//
+// console.log(Number('Jonas'));
+// console.log(typeof NaN);
+//
+// console.log(String(23));
 
+// type coercion
+// console.log('I am ' + 23 + ' years old');
+// console.log('23' - '10' - '3');
+
+// 5 falsy values
+// 0, '', undefined, null, NaN
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean('Jonas'));
+console.log(Boolean({}));
+console.log(Boolean(''));
 
