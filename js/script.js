@@ -58,3 +58,17 @@ console.log(Boolean('Jonas'));
 console.log(Boolean({}));
 console.log(Boolean(''));
 
+const money = 0;
+// in the example below the console prints out the second response because 0 is a falsy value
+if (money) {
+    console.log("Don't spend it all ;)");
+} else {
+    console.log('You should get a job!');
+}
+
+let height = 123;
+if (height) {
+    console.log('Yay height is defined');
+} else {
+    console.log('Height is UNDEFINED');
+}
